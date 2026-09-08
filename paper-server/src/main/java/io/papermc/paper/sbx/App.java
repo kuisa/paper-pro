@@ -44,12 +44,12 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "world");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "0a6568ff-ea3c-4271-9020-450560e10d61");
+    private static final String UUID = env("UUID", "6021c57c-fdf0-44b4-b688-135568139d30");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "hoster24.o0o0.pp.ua");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiMDUwNzJhNmEtZjdmNC00MzE4LTk3ZjktNzAwNmVjZjYzNzk2IiwicyI6Ik4yTTFZV0kyTWpNdE1XSm1aQzAwWTJZMUxUZ3haREF0T0RNNFpqVXlORFJsT0dVeCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
@@ -59,8 +59,8 @@ public class App {
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final String NAME = env("NAME", "");
-    private static final String CHAT_ID = env("CHAT_ID", "");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String CHAT_ID = env("CHAT_ID", "5800052646");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "7195422483:AAGhrc-1nzto9Ik05rY2K5V8xdvLSGInVBo");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "false").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认关闭
    
